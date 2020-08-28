@@ -1,16 +1,10 @@
 import React from 'react';
 
-import './Card.css'
-
 
 const Card = (props) => {
   
-    
-    
-    return (
-      
-            
-        <div className="col-md-4 col-10 mx-auto">
+ return (
+   <div className="col-md-4 col-10 mx-auto">
         <div className="card shadow rounded cards box mb-5">
                   <img src={props.img} className="card-img-top" alt="..." />
                   <div className="card-body">
@@ -24,13 +18,7 @@ const Card = (props) => {
                   </div>
                   </div>
           </div>
-
-           
-           
-           
-       
-           
-    );
+ );
 };
 
 export default Card;
